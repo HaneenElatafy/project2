@@ -1,0 +1,395 @@
+body {
+    height: 3000px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 252, 252);
+    overflow: auto;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    opacity: 0.7;
+
+}
+.img1{
+    width: 80px;
+    height: 55px;
+    margin-left: 30px;
+    float: left;   
+}
+.list1{
+    float: right;
+    margin-right: 110px;
+    color: rgb(21, 34, 155);
+}
+.list1 li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+.list1  li  a {
+    text-decoration: none ;
+    color: rgb(23, 25, 139);
+    font-size: 20px;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    
+   
+}
+.overlay {
+    width : 100%; 
+    height: 100vh;
+   background-color: rgb(233, 7, 7);
+  
+   
+ }
+ .content{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 40%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+ }
+ .title1{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+ }
+.p1{
+    font-size: 60px;
+    color: rgb(23, 25, 139); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 30px;
+    border: none;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn1{
+    background-color: white;
+    margin-top: 20px;
+    color: rgb(23, 25, 139);
+}
+.btn2{
+    background-color: white;
+    margin-top: 20px;
+    color: rgb(23, 25, 139) ;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.h1{
+    text-align: center;
+    margin-top: 130px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: bolder;
+}
+.div2{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(23, 25, 139);
+    margin: auto;
+    margin-top: 15px;
+}
+.div3{
+    width: 330px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    margin: auto;
+    margin-top: 30%
+   
+}
+.div4{
+    width: 320px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    float: left;
+    margin-top: -15%;
+    margin-left: 10%;
+   
+}.div5{
+    width: 320px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    float: right;
+    margin-top: -15%;
+    margin-right: 10%;
+}
+.parent2{
+    overflow: auto;
+}
+.h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}.h4{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}.h6{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}
+.h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}.h5{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}.h7{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}
+.a1{
+   position: absolute;
+   margin-top: 15px;
+   text-decoration: none;
+   font-size: 20px;
+   margin-left: 110px;
+   color: black;
+}
+.a2{
+    position: absolute;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 110px;
+    color: black;
+ }.a3{
+    position: absolute;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 110px;
+    color: black;
+ }
+ .parent2{
+    position: relative;
+    overflow: auto;
+ }
+ body {
+    height: 3000px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 252, 252);
+    overflow: auto;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    opacity: 0.7;
+
+}
+.img1{
+    width: 80px;
+    height: 55px;
+    margin-left: 30px;
+    float: left;   
+}
+.list1{
+    float: right;
+    margin-right: 110px;
+    color: rgb(21, 34, 155);
+}
+.list1 li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+.list1  li  a {
+    text-decoration: none ;
+    color: rgb(23, 25, 139);
+    font-size: 20px;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(WhatsApp\ Image\ 2023-06-23\ at\ 6.20.36\ PM.jpeg)
+}
+.overlay {
+    width : 100%; 
+    height: 100vh;
+   background-color: rgb(0, 0,0, 0.7);
+   
+ }
+ .content{
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 40%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+ }
+ .title1{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+ }
+.p1{
+    font-size: 60px;
+    color: rgb(23, 25, 139); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 30px;
+    border: none;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn1{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    color: rgb(23, 25, 139);
+}
+.btn2{
+    background-color: white;
+    margin-top: 20px;
+    color: rgb(23, 25, 139);
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.h1{
+    text-align: center;
+    margin-top: 130px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: bolder;
+}
+.div2{
+    width: 80px;
+    height: 5px;
+    background-color: rgb(23, 25, 139);
+    margin: auto;
+    margin-top: 15px;
+}
+.div3{
+    width: 330px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    margin: auto;
+    margin-top: 90px;
+}
+.div4{
+    width: 320px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    float: left;
+    margin-left: 70px;
+    margin-top: -220px;
+}.div5{
+    width: 320px;
+    height: 220px;
+    border: 4px solid rgb(23, 25, 139) ;
+    float: right;
+    margin-right: 70px;
+    margin-top: -220px;
+}
+.parent2{
+    overflow: auto;
+}
+.h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}.h4{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}.h6{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(23, 25, 139) ;
+    font-style:italic ;
+    padding-top: 20%;
+}
+.h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}.h5{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}.h7{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0) ;;
+}
+.a1{
+   position: absolute;
+   margin-top: 15px;
+   text-decoration: none;
+   font-size: 20px;
+   margin-left: 110px;
+   color: black;
+}
+.a2{
+    position: absolute;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 110px;
+    color: black;
+ }.a3{
+    position: absolute;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 110px;
+    color: black;
+ }
+ .parent2{
+   position: relative;
+   overflow: auto;
+   
+ }
